@@ -2,9 +2,9 @@
 
 /**
  * @wordpress-plugin
- * Plugin Name:       Agreable Longform Plugin
+ * Plugin Name:       Agreable Case Study Plugin
  * Plugin URI:        http://shortlistmedia.co.uk
- * Description:       Created custom longforms.
+ * Description:       Created custom case studies.
  * Version:           0.1.0
  * Author:            Shortlist Media
  * Author URI:        http://shortlistmedia.co.uk

@@ -1,4 +1,4 @@
-<?php namespace AgreableLongformPlugin\Hooks;
+<?php namespace AgreableCasestudyPlugin\Hooks;
 
 class BasicDetailsAcf {
 
@@ -11,7 +11,7 @@ class BasicDetailsAcf {
       [
         'param' => 'post_type',
         'operator' => '==',
-        'value' => 'longform',
+        'value' => 'casestudy',
       ]
     ];
 

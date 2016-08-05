@@ -1,7 +1,7 @@
 <?php
-use AgreableLongformPlugin\CustomFields\HeaderDefinition;
+use AgreableCasestudyPlugin\CustomFields\HeaderDefinition;
 
-$post_type = 'longform';
+$post_type = 'casestudy';
 
 $header_acf = HeaderDefinition::get($post_type);
 

@@ -1,5 +1,5 @@
 <?php
-namespace AgreableLongformPlugin\CustomFields;
+namespace AgreableCasestudyPlugin\CustomFields;
 
 /**
  * This class allows us to load this ACF header definition in to other
@@ -13,7 +13,7 @@ class HeaderDefinition {
       'title' => 'Opening Header',
       'fields' => array (
         array (
-          'key' => 'longform_header_basic_details_tab',
+          'key' => 'casestudy_header_basic_details_tab',
           'label' => 'Basic Details',
           'type' => 'tab',
           'required' => 0,

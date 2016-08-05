@@ -1,4 +1,4 @@
-Shortlist Media Wordpress Longform Plugin
+Shortlist Media Wordpress Case Study Plugin
 ===============
 
 Wordpress Plugin built for Croissant stack using [Herbert](http://getherbert.com/) plugin framework.

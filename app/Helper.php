@@ -1,4 +1,4 @@
-<?php namespace AgreableLongformPlugin;
+<?php namespace AgreableCasestudyPlugin;
 
 class Helper {
 

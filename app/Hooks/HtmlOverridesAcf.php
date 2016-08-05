@@ -1,4 +1,4 @@
-<?php namespace AgreableLongformPlugin\Hooks;
+<?php namespace AgreableCasestudyPlugin\Hooks;
 
 class HtmlOverridesAcf {
 
@@ -11,7 +11,7 @@ class HtmlOverridesAcf {
       [
         'param' => 'post_type',
         'operator' => '==',
-        'value' => 'longform',
+        'value' => 'casestudy',
       ],
       [
         'param' => 'current_user_role',

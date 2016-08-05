@@ -13,7 +13,7 @@ return [
      */
     'requires' => [
         __DIR__ . '/app/custom-post-types.php',
-        __DIR__ . '/app/CustomFields/longform-widgets.php',
+        __DIR__ . '/app/CustomFields/casestudy-widgets.php',
         __DIR__ . '/app/CustomFields/header.php',
         __DIR__ . '/app/CustomRoles/roles.php',
         __DIR__ . '/app/hooks.php',
@@ -58,21 +58,21 @@ return [
      * The routes to auto-load.
      */
     'routes' => [
-        // 'AgreableLongformPlugin' => __DIR__ . '/app/routes.php'
+        // 'AgreableCasestudyPlugin' => __DIR__ . '/app/routes.php'
     ],
 
     /**
      * The panels to auto-load.
      */
     'panels' => [
-        // 'AgreableLongformPlugin' => __DIR__ . '/app/panels.php'
+        // 'AgreableCasestudyPlugin' => __DIR__ . '/app/panels.php'
     ],
 
     /**
      * The APIs to auto-load.
      */
     'apis' => [
-        // 'AgreableLongformPlugin' => __DIR__ . '/app/api.php'
+        // 'AgreableCasestudyPlugin' => __DIR__ . '/app/api.php'
     ],
 
     /**
@@ -83,7 +83,7 @@ return [
      * when rendering a view in twig.
      */
     'views' => [
-        // 'AgreableLongformPlugin' => __DIR__ . '/resources/views'
+        // 'AgreableCasestudyPlugin' => __DIR__ . '/resources/views'
     ],
 
     /**
@@ -101,10 +101,10 @@ return [
     /**
      * Namespace used in ACF Panel definitions.
      */
-    'agreable_namespace' => 'agreable_longform',
+    'agreable_namespace' => 'agreable_casestudy',
 
     /**
      *
      */
-    'agreable_pluginTitle'      => 'Longform'
+    'agreable_pluginTitle'      => 'Casestudy'
 ];
