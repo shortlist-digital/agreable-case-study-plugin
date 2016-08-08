@@ -122,14 +122,18 @@ class HeaderDefinition {
             'parallax' => 'Enable parallax effect',
             'carousel-buttons' => 'Enable previous/next carousel buttons (if used)',
             'scroll-down-button' => 'Enable scroll down button (if full-height is used)',
-            'display-post-category' => 'Display post category'
+            'display-post-category' => 'Display post category',
+            'display-heading' => 'Display heading',
+            'display-sell' => 'Display sell'
           ),
           'default_value' => array (
             'full-height' => '',
             'parallax' => '',
             'carousel-buttons' => 'carousel-buttons',
             'scroll-down-button' => 'scroll-down-button',
-            'display-post-category' => 'display-post-category'
+            'display-post-category' => 'display-post-category',
+            'display-heading' => 'display-heading',
+            'display-sell' => 'display-sell'
           ),
         ),
         array(
