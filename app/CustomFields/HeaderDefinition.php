@@ -132,6 +132,30 @@ class HeaderDefinition {
             'display-post-category' => 'display-post-category'
           ),
         ),
+        array(
+          'key' => $key . '_brand',
+          'label' => 'Brand',
+          'name' => 'header_brand',
+          'type' => 'text',
+          'instructions' => 'Add a brand specific sell (optional)',
+          'default_value' => '',
+          'wrapper' => array (
+          'width' => '50%',
+          ),
+        ),
+        array(
+          'key' => $key . '_brand_image',
+          'label' => 'Brand Image',
+          'name' => 'header_brand_image',
+          'type' => 'image',
+          'instructions' => 'Add a brand logo (optional)',
+          'return_format' => 'array',
+          'preview_size' => 'thumbnail',
+          'library' => 'all',
+          'wrapper' => array (
+          'width' => '50%'
+          ),
+        ),
         array (
           'key' => $key . '_superherovideo_options',
           'label' => 'Superhero Video options',
