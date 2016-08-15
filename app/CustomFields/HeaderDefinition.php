@@ -1,5 +1,5 @@
 <?php
-namespace AgreableCasestudyPlugin\CustomFields;
+namespace AgreableCaseStudyPlugin\CustomFields;
 
 /**
  * This class allows us to load this ACF header definition in to other

@@ -15,8 +15,8 @@ return [
         __DIR__ . '/app/custom-post-types.php',
         __DIR__ . '/app/CustomFields/casestudy-widgets.php',
         __DIR__ . '/app/CustomFields/header.php',
-        __DIR__ . '/app/CustomRoles/roles.php',
-        __DIR__ . '/app/hooks.php',
+        // __DIR__ . '/app/CustomRoles/roles.php',
+        // __DIR__ . '/app/hooks.php',
     ],
 
     /**
@@ -58,21 +58,21 @@ return [
      * The routes to auto-load.
      */
     'routes' => [
-        // 'AgreableCasestudyPlugin' => __DIR__ . '/app/routes.php'
+        // 'AgreableCaseStudyPlugin' => __DIR__ . '/app/routes.php'
     ],
 
     /**
      * The panels to auto-load.
      */
     'panels' => [
-        // 'AgreableCasestudyPlugin' => __DIR__ . '/app/panels.php'
+        // 'AgreableCaseStudyPlugin' => __DIR__ . '/app/panels.php'
     ],
 
     /**
      * The APIs to auto-load.
      */
     'apis' => [
-        // 'AgreableCasestudyPlugin' => __DIR__ . '/app/api.php'
+        // 'AgreableCaseStudyPlugin' => __DIR__ . '/app/api.php'
     ],
 
     /**
@@ -83,7 +83,7 @@ return [
      * when rendering a view in twig.
      */
     'views' => [
-        // 'AgreableCasestudyPlugin' => __DIR__ . '/resources/views'
+        // 'AgreableCaseStudyPlugin' => __DIR__ . '/resources/views'
     ],
 
     /**

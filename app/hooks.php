@@ -2,8 +2,8 @@
 
 /** @var  \Herbert\Framework\Application $container */
 
-use AgreableCasestudyPlugin\Hooks\BasicDetailsAcf;
-use AgreableCasestudyPlugin\Hooks\HtmlOverridesAcf;
+use AgreableCaseStudyPlugin\Hooks\BasicDetailsAcf;
+use AgreableCaseStudyPlugin\Hooks\HtmlOverridesAcf;
 
 (new BasicDetailsAcf)->init();
 (new HtmlOverridesAcf)->init();

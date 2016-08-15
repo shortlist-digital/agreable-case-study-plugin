@@ -1,4 +1,4 @@
-<?php namespace AgreableCasestudyPlugin\Hooks;
+<?php namespace AgreableCaseStudyPlugin\Hooks;
 
 class HtmlOverridesAcf {
 
