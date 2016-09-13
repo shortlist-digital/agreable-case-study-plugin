@@ -11,7 +11,7 @@ class BasicDetailsAcf {
       [
         'param' => 'post_type',
         'operator' => '==',
-        'value' => 'casestudy',
+        'value' => 'case_study',
       ]
     ];
 
