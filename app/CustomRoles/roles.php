@@ -1,7 +1,7 @@
 <?php
 add_action('admin_init', function() {
   if (!get_role('case_studies_editor')) {
-    // Add casestudies editor role
+    // Add case studies editor role
     add_role('case_studies_editor',
       'Case Studies Editor',
       array(
@@ -19,12 +19,12 @@ add_action('admin_init', function() {
   foreach($roles as $the_role) {
     $role = get_role($the_role);
     $role->add_cap('read_case_study');
-    $role->add_cap('read_private_casestudies');
+    $role->add_cap('read_private_case_studies');
     $role->add_cap('edit_case_study');
     $role->add_cap('edit_case_studies');
     $role->add_cap('edit_others_case_studies');
     $role->add_cap('edit_published_case_studies');
-    $role->add_cap('publish_casestudies');
+    $role->add_cap('publish_case_studies');
     $role->add_cap('delete_others_case_studies');
     $role->add_cap('delete_private_case_studies');
     $role->add_cap('delete_published_case_studies');

@@ -16,10 +16,8 @@
     "behat/behat": "~2.5"
   },
   "config": {
-      "bin-dir": "bin/"
-  },
-  "config": {
-    "preferred-install": "dist"
+      "bin-dir": "bin/",
+      "preferred-install": "dist"
   },
   "minimum-stability": "dev",
   "autoload": {
