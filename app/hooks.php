@@ -5,5 +5,10 @@
 use AgreableCaseStudyPlugin\Hooks\BasicDetailsAcf;
 use AgreableCaseStudyPlugin\Hooks\HtmlOverridesAcf;
 
-(new BasicDetailsAcf)->init();
-(new HtmlOverridesAcf)->init();
+if(class_exists('AgreableCaseStudyPlugin\Hooks\BasicDetailsAcf')){
+  (new BasicDetailsAcf)->init();
+}
+
+if(class_exists('AgreableCaseStudyPlugin\Hooks\HtmlOverridesAcf')){
+  (new HtmlOverridesAcf)->init();
+}

@@ -22,7 +22,7 @@
   );
 
   $args = array(
-    'label'               => __('casestudies', 'text_domain'),
+    'label'               => __('case_studies', 'text_domain'),
     'description'         => __('Shortlist Media Case Studies', 'text_domain'),
     'labels'              => $labels,
     'supports'            => array('title','revisions'),
@@ -44,7 +44,6 @@
     'rewrite' => false,
     'query_var' => true,
   );
-  \register_post_type('casestudy', $args);
+  \register_post_type('case_study', $args);
 }
 ,0);
-

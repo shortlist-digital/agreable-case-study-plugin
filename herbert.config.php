@@ -13,7 +13,7 @@ return [
      */
     'requires' => [
         __DIR__ . '/app/custom-post-types.php',
-        __DIR__ . '/app/CustomFields/casestudy-widgets.php',
+        __DIR__ . '/app/CustomFields/case-study-widgets.php',
         __DIR__ . '/app/CustomFields/header.php',
         __DIR__ . '/app/CustomRoles/roles.php',
         __DIR__ . '/app/hooks.php',
@@ -101,10 +101,10 @@ return [
     /**
      * Namespace used in ACF Panel definitions.
      */
-    'agreable_namespace' => 'agreable_casestudy',
+    'agreable_namespace' => 'agreable_case_study',
 
     /**
      *
      */
-    'agreable_pluginTitle'      => 'Casestudy'
+    'agreable_pluginTitle'      => 'Case Study'
 ];

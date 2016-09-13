@@ -2,7 +2,7 @@
 
 add_action('agreable_app_theme_init', function() {
 
-  $key = 'casestudy';
+  $key = 'case_study';
 
   include_once get_template_directory() . "/custom-fields/WidgetLoader.php";
 
@@ -32,7 +32,7 @@ add_action('agreable_app_theme_init', function() {
         array (
           'param' => 'post_type',
           'operator' => '==',
-          'value' => 'casestudy',
+          'value' => 'case_study',
         ),
       ),
     ),
