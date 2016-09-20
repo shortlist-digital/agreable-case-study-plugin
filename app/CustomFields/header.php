@@ -1,7 +1,7 @@
 <?php
 use AgreableCaseStudyPlugin\CustomFields\HeaderDefinition;
 
-$post_type = 'casestudy';
+$post_type = 'case_study';
 
 $header_acf = HeaderDefinition::get($post_type);
 

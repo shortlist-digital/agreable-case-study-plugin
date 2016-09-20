@@ -13,7 +13,7 @@ class HeaderDefinition {
       'title' => 'Opening Header',
       'fields' => array (
         array (
-          'key' => 'casestudy_header_basic_details_tab',
+          'key' => 'case_study_header_basic_details_tab',
           'label' => 'Basic Details',
           'type' => 'tab',
           'required' => 0,
