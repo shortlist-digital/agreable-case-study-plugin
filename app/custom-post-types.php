@@ -43,7 +43,7 @@
     'menu_position'       => 2,
     'menu_icon'           => 'dashicons-editor-ul',
     'can_export'          => true,
-    'has_archive'         => true,
+    'has_archive'         => false,
     'exclude_from_search' => false,
     'publicly_queryable'  => true,
     'capability_type' => 'post',
