@@ -11,7 +11,7 @@ class HtmlOverridesAcf {
       [
         'param' => 'post_type',
         'operator' => '==',
-        'value' => 'casestudy',
+        'value' => 'case_study',
       ],
       [
         'param' => 'current_user_role',

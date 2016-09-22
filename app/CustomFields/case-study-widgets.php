@@ -2,7 +2,7 @@
 
 add_action('agreable_app_theme_init', function() {
 
-  $key = 'casestudy';
+  $key = 'case_study';
 
   include_once get_template_directory() . "/custom-fields/WidgetLoader.php";
 
@@ -12,6 +12,16 @@ add_action('agreable_app_theme_init', function() {
     'key' => $key . '_widgets_group',
     'title' => 'Body',
     'fields' => array (
+      array (
+        'key' => $key .'_preview_image',
+        'label' => 'Case Study Preview Image',
+        'name' => 'case_study_preview_image',
+        'type' => 'image',
+        'instructions' => 'This image will be shown on the main case study page as a preview to the case study. If it is left blank it will get the first image in the Basic Details image section.',
+        'required' => 1,
+        'return_format' => 'array',
+        'preview_size' => 'thumbnail',
+      ),
       array (
         'key' => $key . '_widgets',
         'label' => 'Content Widgets',
@@ -32,7 +42,7 @@ add_action('agreable_app_theme_init', function() {
         array (
           'param' => 'post_type',
           'operator' => '==',
-          'value' => 'casestudy',
+          'value' => 'case_study',
         ),
       ),
     ),
