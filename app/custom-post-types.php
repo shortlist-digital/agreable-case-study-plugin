@@ -21,6 +21,13 @@
     'not_found_in_trash'  => __( 'Not found in Trash', 'text_domain' ),
   );
 
+  $rewrite = [
+    'slug'                => 'case-study',
+    'with_front'          => true,
+    'pages'               => true,
+    'feeds'               => true,
+  ];
+
   $args = array(
     'label'               => __('case_studies', 'text_domain'),
     'description'         => __('Shortlist Media Case Studies', 'text_domain'),
@@ -41,7 +48,7 @@
     'publicly_queryable'  => true,
     'capability_type' => 'post',
     'map_meta_cap' => true,
-    'rewrite' => false,
+    'rewrite' => $rewrite,
     'query_var' => true,
   );
   \register_post_type('case_study', $args);
