@@ -14,6 +14,8 @@ class RelatedContentAcf {
       ]
     ];
 
-    return $acf_definition;
+   $acf_definition['fields'][3]['post_type'][] = 'case_study';
+
+   return $acf_definition;
   }
 }
