@@ -21,7 +21,7 @@ class BasicDetailsAcf {
       'name' => 'case_study_preview_image',
       'type' => 'image',
       'instructions' => 'This image will be shown on the case study grid. If it is left blank it will get the first image in the Basic Details image section.',
-      'required' => 1,
+      'required' => 0,
       'return_format' => 'array',
       'preview_size' => 'thumbnail',
     ];
