@@ -14,6 +14,24 @@ class RelatedContentAcf {
       ]
     ];
 
+    $key = 'related';
+    $acf_definition['fields'] = [
+      [
+      'key' => $key . '_posts_manual',
+      'label' => 'Insert content (Posts, Tiles, Case Studies)',
+      'name' => $key . '_manual_posts',
+      'type' => 'post_object',
+      'required' => 0,
+      'post_type' => array (
+        0 => 'post',
+        1 => 'tile',
+        2 => 'case_study',
+      ),
+      'multiple' => 1,
+      'return_format' => 'object',
+      ]
+    ];
+
     return $acf_definition;
   }
 }
