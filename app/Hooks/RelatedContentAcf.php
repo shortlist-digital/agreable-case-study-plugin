@@ -32,6 +32,6 @@ class RelatedContentAcf {
       ]
     ];
 
-    return $acf_definition;
+   return $acf_definition;
   }
 }
