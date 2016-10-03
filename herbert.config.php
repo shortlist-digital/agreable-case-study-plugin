@@ -13,6 +13,7 @@ return [
      */
     'requires' => [
         __DIR__ . '/app/custom-post-types.php',
+        __DIR__ . '/app/CustomFields/case-study-grid-image.php',
         __DIR__ . '/app/CustomFields/case-study-widgets.php',
         __DIR__ . '/app/CustomFields/header.php',
         __DIR__ . '/app/CustomRoles/roles.php',
