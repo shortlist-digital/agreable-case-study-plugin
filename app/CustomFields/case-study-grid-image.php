@@ -17,6 +17,21 @@ add_action('agreable_app_theme_init', function() {
       'required' => 0,
       'return_format' => 'array',
       'preview_size' => 'thumbnail',
+        'wrapper' => array (
+          'width' => '75%',
+        ),
+      ),
+      array(
+        'key' => 'case_study_preview_image_full_width',
+        'label' => 'Full Width Image',
+        'name' => 'case_study_preview_image_full_width',
+        'type' => 'true_false',
+        'instructions' => 'Ticking this will make the image full width on the grid',
+        'required' => 0,
+        'conditional_logic' => 0,
+        'wrapper' => array (
+          'width' => '25%',
+        ),
       ),
     ),
     'location' => array (
