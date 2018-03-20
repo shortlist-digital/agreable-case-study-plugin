@@ -50,6 +50,7 @@
     'map_meta_cap' => true,
     'rewrite' => $rewrite,
     'query_var' => true,
+    'show_in_rest' => true
   );
   \register_post_type('case_study', $args);
 }
